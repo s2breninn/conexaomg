@@ -1,5 +1,6 @@
 import { Header, Nav, Ul, Li } from "./styled"
-import Logo from "../../../public/CX.png";
+import { Link } from "react-router-dom";
+import Logo from "../../../public/logoParteTras.png";
 
 export default function HeaderSite(){
 
@@ -9,10 +10,10 @@ export default function HeaderSite(){
             <Nav>
 
                 <Ul>
-                    <Li>Home</Li>
-                    <Li>Sobre</Li>
-                    <Li>Contato</Li>
-                    <Li>Login</Li>
+                    <Li><Link to='/'>Home</Link></Li>
+                    <Li><Link to='/sobre'>Sobre</Link></Li>
+                    <Li><Link to='/contato'>Contato</Link></Li>
+                    <Li><Link to='/login'>Login</Link></Li>
                 </Ul>
             </Nav>
         </Header>

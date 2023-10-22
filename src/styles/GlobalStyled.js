@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         width: 100%;
-        height: 200vh;
+        height: 100vh;
     }
 
     button{

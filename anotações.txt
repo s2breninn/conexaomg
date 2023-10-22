@@ -1,0 +1,5 @@
+ background: rgb(255,0,0);
+background: linear-gradient(47deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%); 
+
+para segunda tela
+
