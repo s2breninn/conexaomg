@@ -14,6 +14,8 @@ export const FooterTop = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem), 1fr);
     row-gap: 2rem;
+    display: flex;
+    flex-direction: row;
 `
 export const CompanyInfo = styled.div`
     grid-column: 1/-1;
@@ -51,4 +53,6 @@ export const Copyright= styled.span`
     margin-top: auto;
 `
 export const Container= styled.div`
+    padding: 0 4rem;
+    margin: auto;
 `

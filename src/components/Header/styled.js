@@ -9,6 +9,7 @@ export const Header = styled.header`
     align-items: center;
     justify-content: space-evenly;
     box-shadow: inset -5px 40px 20px -38px rgba(0,0,0,0.62);
+    backdrop-filter: blur(10px);
 `
 
 export const Nav = styled.nav`
@@ -17,8 +18,8 @@ export const Nav = styled.nav`
 export const Ul = styled.ul`
     display: flex;
     gap: 40px;
-    li{
-        color: red;
+    a{
+        color: ${colors.whiteColor};
     }
 
     li:hover{
