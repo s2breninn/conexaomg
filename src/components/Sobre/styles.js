@@ -8,7 +8,8 @@ export const Container = styled.div`
     margin: 30rem;
     border-radius: 2rem;
     box-shadow: 21px 20px 50px -1px rgba(0,0,0,0.75);
-    z-index: 1;
+    z-index: 2;
+    width: 50%;
     animation: myAnim 2s;
 
     @keyframes myAnim {
@@ -23,7 +24,6 @@ export const Container = styled.div`
 `  
 
 export const ContainerAbout = styled.div`
-    width: 100%;
     height: 15rem;
     position: relative;
     padding: 1.5rem;

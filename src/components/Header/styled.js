@@ -10,6 +10,7 @@ export const Header = styled.header`
     justify-content: space-evenly;
     box-shadow: inset -5px 40px 20px -38px rgba(0,0,0,0.62);
     backdrop-filter: blur(10px);
+    z-index: 1;
 `
 
 export const Nav = styled.nav`

@@ -3,7 +3,7 @@ import * as about from "./styles";
 export default function Sobre () {
 
     return(
-        <about.Container data-aos-zoom>
+        <about.Container id="about">
             <about.ContainerAbout>
                 <h1>Quem somos</h1>
                 <about.ContainerInfoAbout>

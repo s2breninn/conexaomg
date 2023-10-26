@@ -24,8 +24,9 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 700;
     }
 
-    a { 
+    a, img { 
         text-decoration: none;
+        cursor: pointer;
     }
 
     ul {

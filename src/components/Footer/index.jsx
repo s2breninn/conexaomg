@@ -3,6 +3,7 @@ import whatsapp from '../../../public/whatsapp.png'
 import instagram from '../../../public/instagram.png'
 import facebook from '../../../public/facebook.png'
 import Logo from "../../../public/logoParteTras.png";
+import * as scroll from 'react-scroll'
 
 export default function Footer() {
   return (
@@ -23,9 +24,10 @@ export default function Footer() {
                 <footer.Container>
                     <footer.FooterTitle>Links</footer.FooterTitle>    
                     <footer.FooterList>
-                        <footer.FooterListItems>Sobre</footer.FooterListItems>
+                        <footer.FooterListItems><scroll.Link to='home'  spy={true} smooth={true} offset={-200} duration={400}>Home</scroll.Link></footer.FooterListItems>
+                        <footer.FooterListItems><scroll.Link to='about'  spy={true} smooth={true} offset={-200} duration={500}>Sobre</scroll.Link></footer.FooterListItems>
                         <footer.FooterListItems>Serviços</footer.FooterListItems>
-                        <footer.FooterListItems>Quem Somos</footer.FooterListItems>
+                        <footer.FooterListItems><scroll.Link to='about'  spy={true} smooth={true} offset={-200} duration={500}>Quem somos</scroll.Link></footer.FooterListItems>
                     </footer.FooterList>
                 </footer.Container>
                 <footer.Container>

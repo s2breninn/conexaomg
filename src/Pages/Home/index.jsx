@@ -1,7 +1,7 @@
 import  * as home from "./styles";
 import  Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Sobre from "../Sobre";
+import Sobre from "../../components/Sobre";
 import DrogariaRamalho from "../../../public/logo-ramalho.png";
 import BarLavaJato from "../../../public/logo-barlavajatorm.png";
 import InfoTech from "../../../public/logo-infotech.png";
@@ -14,7 +14,7 @@ export default function Home () {
     return(
         <>
         <Header/>
-        <home.Container>
+        <home.Container id="home">
             <home.Title>CONEXÃO MG</home.Title>
             <home.Phrase>"A paixão por motos é uma chama que nunca se apaga e só quem é motoqueiro entende essa sensação."</home.Phrase>
             <Sobre/>
