@@ -14,9 +14,9 @@ export const Container = styled.div`
 export const ContainerSegunry = styled.div`
         background: linear-gradient(32deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%);background: linear-gradient(36deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%); 
         width: 100%;
-        height: 100vh;
+        height: 150vh;
         display: flex;
-        align-items: center;
+        align-items: end;
         justify-content: center;
 `
 export const BackgroundContainerSegundary = styled.div`
@@ -86,4 +86,12 @@ export const ContainerImages = styled.div`
         img{
                 padding: 2rem;
         }
+`
+
+export const ContainerHomeCard = styled.div`
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4em 2em;
 `

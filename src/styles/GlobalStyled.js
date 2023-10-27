@@ -22,6 +22,9 @@ export const GlobalStyle = createGlobalStyle`
         padding: 15px;
         border-radius: 5px;
         font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     a, img { 

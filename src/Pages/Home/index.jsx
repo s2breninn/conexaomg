@@ -2,6 +2,7 @@ import  * as home from "./styles";
 import  Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Sobre from "../../components/Sobre";
+import Card from "../../components/Card";
 import DrogariaRamalho from "../../../public/logo-ramalho.png";
 import BarLavaJato from "../../../public/logo-barlavajatorm.png";
 import InfoTech from "../../../public/logo-infotech.png";
@@ -21,6 +22,11 @@ export default function Home () {
         </home.Container>
         <home.ContainerSegunry>
             <home.BackgroundContainerSegundary></home.BackgroundContainerSegundary>
+            <home.ContainerHomeCard>
+                <Card/>
+                <Card/>
+                <Card/>
+            </home.ContainerHomeCard>
         </home.ContainerSegunry>
         <home.ContainerThird>
             <home.ContainerThirdInfo>

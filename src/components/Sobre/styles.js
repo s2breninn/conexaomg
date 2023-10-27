@@ -17,7 +17,7 @@ export const Container = styled.div`
         width: 10em;
         margin: 3em 8em;
         -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
-        filter: drop-shadow(-.6em .3em 0.7em ${colors.blackColor});
+        filter: drop-shadow(-.4em .1em 0.5em ${colors.blackColor});
     }
 
     @keyframes myAnim {
