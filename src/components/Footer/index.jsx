@@ -7,7 +7,7 @@ import * as scroll from 'react-scroll'
 
 export default function Footer() {
   return (
-    <footer.Footer>
+    <footer.Footer id='footer'>
         <footer.FooterContainer>
             <footer.FooterTop>
                 <footer.CompanyInfo>

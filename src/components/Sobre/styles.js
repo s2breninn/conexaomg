@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 31.5em;
     display: flex;
     justify-content: center;
-    margin: 30em;
+    margin: 30em 30em 30em 30em;
     background: ${colors.whiteColor};
     border-radius: 2rem;
     box-shadow: 21px 20px 50px -1px rgba(0,0,0,0.75);

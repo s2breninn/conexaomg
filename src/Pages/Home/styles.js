@@ -14,7 +14,7 @@ export const Container = styled.div`
 export const ContainerSegunry = styled.div`
         background: linear-gradient(32deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%);background: linear-gradient(36deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%); 
         width: 100%;
-        height: 150vh;
+        height: 160vh;
         display: flex;
         align-items: end;
         justify-content: center;
@@ -78,7 +78,7 @@ export const ContainerThirdInfo = styled.div`
 export const TitleThirdInfo = styled.h1`
         font-family: Helvetica, sans-serif;
         font-size: 5rem;
-        color: #605e5e;
+        color: ${colors.grayTitleColor};
         font-weight: 800;
 `
 export const ContainerImages = styled.div`
@@ -90,8 +90,32 @@ export const ContainerImages = styled.div`
 
 export const ContainerHomeCard = styled.div`
         position: absolute;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: ${colors.whiteColor};
+`
+
+export const ContainerTitleProducts = styled.div`
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: ${colors.whiteColor};
+        padding: 4em;
+`
+
+export const CardsHome = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 4em 2em;
+`
+
+export const TitleProducts = styled.h1`
+        font-family: Helvetica, sans-serif;
+        font-size: 4em;
+        color: ${colors.grayTitleColor};
+        font-weight: 700;
 `

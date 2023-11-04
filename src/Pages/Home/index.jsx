@@ -23,9 +23,14 @@ export default function Home () {
         <home.ContainerSegunry>
             <home.BackgroundContainerSegundary></home.BackgroundContainerSegundary>
             <home.ContainerHomeCard>
-                <Card/>
-                <Card/>
-                <Card/>
+                <home.ContainerTitleProducts>
+                    <home.TitleProducts>CONHEÇA NOSSOS PRODUTOS:</home.TitleProducts>
+                </home.ContainerTitleProducts>
+                <home.CardsHome>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                </home.CardsHome>
             </home.ContainerHomeCard>
         </home.ContainerSegunry>
         <home.ContainerThird>
