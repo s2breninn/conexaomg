@@ -3,6 +3,7 @@ import  Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Sobre from "../../components/Sobre";
 import Card from "../../components/Card";
+import products from "../../data/products";
 import DrogariaRamalho from "../../../public/logo-ramalho.png";
 import BarLavaJato from "../../../public/logo-barlavajatorm.png";
 import InfoTech from "../../../public/logo-infotech.png";
@@ -27,9 +28,14 @@ export default function Home () {
                     <home.TitleProducts>CONHEÇA NOSSOS PRODUTOS:</home.TitleProducts>
                 </home.ContainerTitleProducts>
                 <home.CardsHome>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    {products.map(products => (
+                        <Card
+                            key={products.id}
+                            image={products.image}
+                            name={products.name}
+                            price={products.price}
+                        />
+                    ))}
                 </home.CardsHome>
             </home.ContainerHomeCard>
         </home.ContainerSegunry>

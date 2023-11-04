@@ -8,13 +8,13 @@ const productData = [
     {
         id: 2,
         name: 'Chaveiro',
-        image: '../../public/product-chaveiro.png',
+        image: '../../public/product-chaveiro.jpeg',
         price: 5,
     },
     {
         id: 3,
         name: 'Adesivo',
-        image: '../../public/product-camisa.png',
+        image: '../../public/product-adesivo.png',
         price: 5,
     },
 ]

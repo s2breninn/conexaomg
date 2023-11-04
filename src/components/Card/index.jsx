@@ -1,19 +1,18 @@
 import * as card from "./styles";
-import ProductBuy from "../../../public/product-camisa.png";
 import { FaBasketShopping } from "react-icons/fa6";
 
-export default function Sobre () {
+export default function Card (props) {
 
     return(
-        <card.ContainerCard>
+        <card.ContainerCard key={props.id}>
             <card.ContainerImage>
-                <img src={ProductBuy}/>
+                <img src={props.image} alt="Imagem do produto"/>
             </card.ContainerImage>
 
             <card.FooterCard>
                 <card.Description>
-                    <card.NameProduct>Camisa</card.NameProduct>
-                    <card.Price>R$ 40,00</card.Price>
+                    <card.NameProduct>{props.name}</card.NameProduct>
+                    <card.Price>R$ {props.price},00</card.Price>
                 </card.Description>
 
                 <card.ContainerButton>
