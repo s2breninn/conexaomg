@@ -104,6 +104,11 @@ export const ContainerTitleProducts = styled.div`
         justify-content: center;
         background: ${colors.whiteColor};
         padding: 4em;
+
+        @media screen and (max-width: 1100px){
+                font-size: 10px;
+                padding-top: 80px;
+        }
 `
 
 export const CardsHome = styled.div`
@@ -111,6 +116,13 @@ export const CardsHome = styled.div`
         align-items: center;
         justify-content: center;
         padding: 4em 2em;
+
+        @media screen and (max-width: 1200px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
 `
 
 export const TitleProducts = styled.h1`

@@ -28,7 +28,6 @@ export const Container = styled.div`
 	100% {
 		transform: scale(1);
 	}
-
 }
 `  
 
@@ -37,6 +36,11 @@ export const ContainerAbout = styled.div`
     position: relative;
     padding: 2em;
     border-radius: 2em;
+
+    @media screen and (min-width: 800px) {
+        width: 500px;
+    }
+
 `   
 
 export const ContainerInfoAbout = styled.div`
