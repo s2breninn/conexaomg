@@ -20,12 +20,13 @@ export const ContainerImage =styled.div`
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: centerx;
+    justify-content: center;
     border-radius: .8em;
     background: ${colors.inputColor};
 
     img{
-        width: 19em;
+        width: 18em;
+        border-radius: 1em;
     }
 `
 

@@ -8,7 +8,7 @@ const productData = [
     {
         id: 2,
         name: 'Chaveiro',
-        image: '../../public/product-chaveiro.jpeg',
+        image: '../../public/product-chaveiro.png',
         price: 5,
     },
     {
