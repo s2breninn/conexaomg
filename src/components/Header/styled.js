@@ -28,6 +28,7 @@ export const Ul = styled.ul`
         color: ${colors.whiteColor};
         transition: all 0.8s;
     }
+
 `
 export const Li = styled.li`
 `

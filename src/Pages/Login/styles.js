@@ -5,6 +5,7 @@ export const ContainerLogin = styled.div`
     height: 100vh;
     width: 100vw;
     display: flex;
+ 
 `
 export const LeftLogin = styled.div`
     width: 30vw;
@@ -13,7 +14,7 @@ export const LeftLogin = styled.div`
     background: red;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 `
 export const RightLogin = styled.div`
     width: 70vw;
