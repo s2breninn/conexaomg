@@ -106,8 +106,13 @@ export const ContainerTitleProducts = styled.div`
         padding: 4em;
 
         @media screen and (max-width: 1100px){
-                font-size: 10px;
+                font-size: 13px;
                 padding-top: 80px;
+
+                h1{
+                        display: flex;
+                        justify-content: center;
+                }
         }
 `
 

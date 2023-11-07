@@ -13,6 +13,29 @@ export const ContainerCard = styled.div`
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    @media screen and (max-width: 1200px) {
+        height: 50em;
+        width: 40em;
+
+        img{
+            width: 36em;
+            height: 29em 
+        }
+
+        h6{
+            font-size: 35px;
+        }
+
+        button{
+            height: 60%;
+            font-size: 25px;
+        }
+
+        span{
+            font-size: 25px;
+        }
+    }
 `
 
 export const ContainerImage =styled.div`
@@ -27,6 +50,13 @@ export const ContainerImage =styled.div`
     img{
         width: 18em;
         border-radius: 1em;
+    }
+    @media screen and (max-width: 1200px) {
+
+        img{
+            width: 36em;
+            height: 29em 
+        }
     }
 `
 
@@ -63,7 +93,7 @@ export const ContainerButton = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: .8em;
+    gap: .8em;x
 `
 
 export const ButtonBuy = styled.button`
@@ -77,4 +107,5 @@ export const ButtonCar = styled.button`
     width: 20%;
     height: 3em;
     background: ${colors.inputColor};
+
 `
