@@ -2,11 +2,10 @@ import styled from "styled-components";
 import * as colors from  '../../config/colors'
 
 export const Container = styled.div`
-    width: 50%;
-    height: 31.5em;
+    width: 900px;
     display: flex;
     justify-content: center;
-    margin: 30em 30em 30em 30em;
+    margin: 24em 30em 30em 30em;
     background: ${colors.whiteColor};
     border-radius: 2rem;
     box-shadow: 21px 20px 50px -1px rgba(0,0,0,0.75);
@@ -20,27 +19,23 @@ export const Container = styled.div`
         filter: drop-shadow(-.4em .1em 0.5em ${colors.blackColor});
     }
 
+    
     @keyframes myAnim {
-	0% {
-		transform: scale(0.5);
-	}
-
-	100% {
-		transform: scale(1);
-	}
-}
-`  
+        0% {
+            transform: scale(0.5);
+        }
+        
+        100% {
+            transform: scale(1);
+        }
+        
+    }
+    `  
 
 export const ContainerAbout = styled.div`
-    height: 100%;
     position: relative;
     padding: 2em;
     border-radius: 2em;
-
-    @media screen and (min-width: 800px) {
-        width: 500px;
-    }
-
 `   
 
 export const ContainerInfoAbout = styled.div`

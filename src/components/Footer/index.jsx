@@ -18,7 +18,7 @@ export default function Footer() {
                         <footer.FooterListItems><img src={facebook}/></footer.FooterListItems>
                         <footer.FooterListItems><img src={whatsapp}/></footer.FooterListItems>
                     </footer.FooterList>
-                    <footer.Copyright>©️ 2023 Copyright</footer.Copyright>
+                    <footer.Copyright>Copyright © 2023 Conexão mg - Todos os direitos reservados - Política de Privacidade - Direitos do Titular </footer.Copyright>
                     <footer.Copyright>Desenvolvedor & CEO Conexão MG: Breno Mendes</footer.Copyright>
                 </footer.CompanyInfo>
                 <footer.Container>

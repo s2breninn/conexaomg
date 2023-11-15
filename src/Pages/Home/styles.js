@@ -82,10 +82,16 @@ export const TitleThirdInfo = styled.h1`
         font-weight: 800;
 `
 export const ContainerImages = styled.div`
-        padding-top: 1.2rem;
+        padding: 30px 0 50px 0;
         img{
                 padding: 2rem;
         }
+`
+
+export const ConviteText = styled.span`
+        padding: 30px 2px 2px 0;
+        color: ${colors.whiteColor};
+        font-style: italic;
 `
 
 export const ContainerHomeCard = styled.div`

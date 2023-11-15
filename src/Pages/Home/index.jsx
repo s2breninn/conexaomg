@@ -50,6 +50,7 @@ export default function Home () {
                     <img src={Skp} width={300}/>
                     <img src={Wr} width={300}/>
                 </home.ContainerImages>
+                <home.ConviteText>Venha ser nosso parceiro...</home.ConviteText>
             </home.ContainerThirdInfo>
         </home.ContainerThird>
         <Footer/>
