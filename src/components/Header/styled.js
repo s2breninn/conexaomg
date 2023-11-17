@@ -11,10 +11,15 @@ export const Header = styled.header`
     box-shadow: inset -5px 40px 20px -38px rgba(0,0,0,0.62);
     backdrop-filter: blur(10px);
     z-index: 1;
+
+    @media screen and (max-width: 1100px){
+        height: 200px;
+    }
 `
 
 export const Nav = styled.nav`
     font-size: 15px;
+
 `
 export const Ul = styled.ul`
     display: flex;
@@ -31,4 +36,8 @@ export const Ul = styled.ul`
 
 `
 export const Li = styled.li`
+    @media screen and (max-width: 1100px){
+        font-size: 24px;
+
+    }
 `
