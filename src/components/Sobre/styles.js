@@ -12,6 +12,11 @@ export const Container = styled.div`
     z-index: 2;
     animation: myAnim 2s;
 
+
+    @media screen and (max-width: 1100px){
+        display: none;
+    }
+    
     img{
         width: 10em;
         margin: 3em 8em;

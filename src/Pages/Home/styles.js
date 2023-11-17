@@ -10,6 +10,13 @@ export const Container = styled.div`
         align-items: center;
         flex-direction: column;
         padding: 25rem 0;
+
+        @media screen and (max-width: 1100px){
+                height: 2100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
 `
 export const ContainerSegunry = styled.div`
         background: linear-gradient(32deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%);background: linear-gradient(36deg, rgba(255,0,0,1) -2%, rgba(246,0,0,1) 27%, rgba(239,0,0,1) 46%, rgba(192,0,0,1) 75%, rgba(145,0,0,1) 100%, rgba(50,0,0,1) 100%, rgba(105,0,0,1) 100%, rgba(0,0,0,1) 100%); 
