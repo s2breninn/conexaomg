@@ -8,7 +8,7 @@ const productData = [
     {
         id: 2,
         name: 'Chaveiro',
-        image: 'https://pin.it/5H7JGcn',
+        image: '../public/product-chaveiro.png',
         price: 5,
     },
     {

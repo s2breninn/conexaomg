@@ -5,7 +5,7 @@ export const ContainerLogin = styled.div`
     height: 100vh;
     width: 100vw;
     display: flex;
- 
+    
 `
 export const LeftLogin = styled.div`
     width: 30vw;
@@ -14,7 +14,15 @@ export const LeftLogin = styled.div`
     background: red;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center; 
+    
+    @media screen and (max-width: 1100px){
+        display: flex;
+        width: 390px;
+        align-items: center;
+        justify-content: center;
+    }
+    
 `
 export const RightLogin = styled.div`
     width: 70vw;
@@ -24,6 +32,7 @@ export const RightLogin = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 `
 export const TitleLeft = styled.h3`
     color: ${colors.whiteColor};
@@ -57,7 +66,7 @@ export const TitleRight = styled.h3`
 `
 
 export const ContainerInput = styled.div`
-    margin: 10rem 10rem 3rem 10rem;
+    margin: 50px 5px;
 `
 
 export const AreaInput = styled.div`

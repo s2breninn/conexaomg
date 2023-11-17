@@ -17,6 +17,8 @@ export default function Login() {
                 <login.Button>CONTINUAR SEM LOGIN</login.Button>
             </login.ContainerButtons>
         </login.LeftLogin>
+
+        
         <login.RightLogin>
             <login.TitleRight>Crie a sua conta</login.TitleRight>
 
